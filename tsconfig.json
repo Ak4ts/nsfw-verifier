@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        
+        /* Language and Environment */
+        "target": "es2016",
+        
+        /* Modules */
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        
+        /* Shorter Paths */
+        "baseUrl": ".",
+        "paths": {
+            "@routes": [
+                "./src/routes/"
+            ],
+            "@controllers/*": [
+                "./src/controllers/*"
+            ],
+            "@utils":[
+                "./src/utils/"
+            ],
+        },
+        
+        /* Type Checking */
+        "strict": true,
+    }
+}
